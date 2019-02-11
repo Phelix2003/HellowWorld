@@ -10,8 +10,11 @@ namespace HellowWorld
         public App()
         {
             InitializeComponent();
+            
+            
 
-            MainPage = new MainPage();
+            
+            MainPage = new GreetPage();
         }
 
         protected override void OnStart()
